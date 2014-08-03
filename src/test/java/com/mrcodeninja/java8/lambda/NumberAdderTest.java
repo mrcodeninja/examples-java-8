@@ -10,7 +10,7 @@ public class NumberAdderTest {
     public void addsNumbers() {
         NumberAdder adder = (number1, number2) -> number1 + number2;
 
-        int sum = adder.add(1, 2);
+        Number sum = adder.add(1, 2);
 
         assertThat(sum, is(3));
     }
